@@ -1,0 +1,39 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated model files
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Generated prediction history
+data/prediction_history.json
+
+# Temporary files
+*.tmp
+*.bak
+
+# Large dataset - keep locally
+data/Final_Augmented_dataset_Diseases_and_Symptoms.csv
